@@ -18,7 +18,7 @@ for col in df.columns:
     )
     df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# 3️ Размер «топ‑50%»
+# 3️ Размер «топ‑2%»
 half_count = int(len(df) * 0.02)
 
 # 4️ Собираем выборки только по вычисляемым столбцам
